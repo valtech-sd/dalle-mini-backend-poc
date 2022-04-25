@@ -1,0 +1,98 @@
+
+
+[34m[1mwandb[39m[22m: Downloading large artifact model-mheh9e55:latest, 1673.44MB. 7 files... Done. 0:0:0
+
+[34m[1mwandb[39m[22m: Downloading large artifact model-mheh9e55:latest, 1673.44MB. 7 files... Done. 0:0:0
+  0%|          | 0/1 [00:00<?, ?it/s]
+2022-04-21 16:01:47.008080: E external/org_tensorflow/tensorflow/compiler/xla/service/slow_operation_alarm.cc:61]
+********************************
+Very slow compile?  If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+Compiling module pmap_p_generate.207
+********************************
+INFO:werkzeug: * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.86.22:8000 (Press CTRL+C to quit)
+--> DALL-E Server is up and running!
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:07:01] "OPTIONS / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:07:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:07:08] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:07:43] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [shattered plates on the grass]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:07:59] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+Created 1 images from text prompt [girl with sunglasses beach sunny day]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:08:33] "POST /dalle HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:09:04] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:09:39] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [turtle sandy beach night big waves]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:22:09] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:22:43] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [shave ice hawaii sunny]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:27:39] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:28:13] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [grasshopper bridge africa ]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:28:41] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:29:14] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [trees bubbles lake]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:29:39] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:30:14] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [golfing at the lake in the sunshine]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:30:32] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:31:05] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [new york city golfing at the lake in the sunshine]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:31:31] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:32:04] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [golf new york city]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:33:07] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:33:41] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [golf miami]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:33:55] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+Created 1 images from text prompt [golf san francisco]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:34:30] "POST /dalle HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:34:41] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:35:15] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [tennis san francisco]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:35:35] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:36:08] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [disney sad lightning]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:36:16] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:36:50] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [twitter sad lightning]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:37:10] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:37:43] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [sushi paris france blue]
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:38:06] "OPTIONS /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [orange chicken sunny phoenix]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:38:40] "POST /dalle HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:38:50] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:39:24] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [orange chicken night]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:39:55] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:40:32] "POST /dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [badmitton at the beach sunny san diego]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:40:46] "OPTIONS /dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 16:41:19] "POST /dalle HTTP/1.1" 200 -

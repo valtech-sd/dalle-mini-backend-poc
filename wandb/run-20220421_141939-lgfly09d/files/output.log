@@ -1,0 +1,36 @@
+
+
+[34m[1mwandb[39m[22m: Downloading large artifact model-mheh9e55:latest, 1673.44MB. 7 files... Done. 0:0:0
+
+[34m[1mwandb[39m[22m: Downloading large artifact model-mheh9e55:latest, 1673.44MB. 7 files... Done. 0:0:0
+  0%|          | 0/1 [00:00<?, ?it/s]
+2022-04-21 14:23:10.390524: E external/org_tensorflow/tensorflow/compiler/xla/service/slow_operation_alarm.cc:61]
+********************************
+Very slow compile?  If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+Compiling module pmap_p_generate.207
+********************************
+--> DALL-E Server is up and running!
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+INFO:werkzeug: * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.86.22:8000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 14:24:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 14:24:34] "[33mGET /favicon.ico HTTP/1.1[39m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 14:25:03] "OPTIONS / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 14:25:03] "GET / HTTP/1.1" 200 -
+  0%|          | 0/2 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 14:25:17] "OPTIONS //dalle HTTP/1.1" 200 -
+Created 2 images from text prompt [apple climbing a fence]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 14:26:27] "POST //dalle HTTP/1.1" 200 -
+  0%|          | 0/2 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 14:27:19] "OPTIONS //dalle HTTP/1.1" 200 -
+Created 2 images from text prompt [apple on a table]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 14:28:26] "POST //dalle HTTP/1.1" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2022 14:28:51] "OPTIONS //dalle HTTP/1.1" 200 -
+Created 1 images from text prompt [watermelon on a motorcycle]

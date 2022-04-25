@@ -1,0 +1,11 @@
+
+
+[34m[1mwandb[39m[22m: Downloading large artifact model-mheh9e55:latest, 1673.44MB. 7 files... Done. 0:0:0
+Traceback (most recent call last):
+  File "/Users/max/Developer/future-studio-lab/dalle-playground/backend/app.py", line 61, in <module>
+    vqgan = VQModel.from_pretrained(VQGAN_REPO, revision=VQGAN_COMMIT_ID)
+  File "/Users/max/opt/anaconda3/lib/python3.9/site-packages/transformers/modeling_flax_utils.py", line 556, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+  File "/Users/max/opt/anaconda3/lib/python3.9/site-packages/vqgan_jax/modeling_flax_vqgan.py", line 596, in __init__
+    super().__init__(config,
+TypeError: __init__() got an unexpected keyword argument '_do_init'
