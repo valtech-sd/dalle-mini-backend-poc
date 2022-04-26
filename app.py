@@ -55,7 +55,9 @@ gen_top_p = None
 temperature = 0.85
 cond_scale = 3.0
 
-wandb.init(anonymous="must")
+wandb.init(settings=wandb.Settings(start_method="fork"))
+
+# wandb.init(anonymous="must")
 
 
 # Load models & tokenizer
