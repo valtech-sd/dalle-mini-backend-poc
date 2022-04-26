@@ -56,6 +56,8 @@ gen_top_p = None
 temperature = 0.85
 cond_scale = 3.0
 
+wandb.login(key='66e19f8fa4d92859dff50f48c1855f10312d7c97')
+
 wandb.init(settings=wandb.Settings(start_method="fork"))
 
 # wandb.init(anonymous="must")
