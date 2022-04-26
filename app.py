@@ -31,10 +31,9 @@ dtype = jnp.float32
 import wandb
 
 
+
+
 print(sys.argv)
-
-
-
 
 app = Flask(__name__)
 CORS(app)

@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/Users/max/opt/anaconda3/lib/python3.9/site-packages/dalle_mini/model/modeling.py", line 1399, in from_pretrained
+    state = from_bytes(cls, state_f.read())
+  File "/Users/max/opt/anaconda3/lib/python3.9/site-packages/flax/serialization.py", line 368, in from_bytes
+    state_dict = msgpack_restore(encoded_bytes)
+  File "/Users/max/opt/anaconda3/lib/python3.9/site-packages/flax/serialization.py", line 350, in msgpack_restore
+    state_dict = msgpack.unpackb(
+  File "msgpack/_unpacker.pyx", line 202, in msgpack._cmsgpack.unpackb
+msgpack.exceptions.ExtraData: unpack(b) received extra data.
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/Users/max/opt/anaconda3/lib/python3.9/site-packages/dalle_mini/model/modeling.py", line 1410, in from_pretrained
+    raise ValueError from e
+ValueError
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/max/Developer/future-studio-lab/dalle-playground/backend/app.py", line 63, in <module>
+    model = DalleBart.from_pretrained(DALLE_MODEL, revision=DALLE_COMMIT_ID, dtype=dtype, abstract_init=True)
+  File "/Users/max/opt/anaconda3/lib/python3.9/site-packages/dalle_mini/model/utils.py", line 25, in from_pretrained
+    return super(PretrainedFromWandbMixin, cls).from_pretrained(
+  File "/Users/max/opt/anaconda3/lib/python3.9/site-packages/dalle_mini/model/modeling.py", line 1412, in from_pretrained
+    raise EnvironmentError(
+OSError: Unable to convert ./wandb/run-20220421_120039-36xut6fr/files/wandb-metadata.json to Flax deserializable object.

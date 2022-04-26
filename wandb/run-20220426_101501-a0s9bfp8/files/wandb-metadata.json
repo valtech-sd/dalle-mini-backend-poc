@@ -1,0 +1,22 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-04-26T17:15:04.784331",
+    "startedAt": "2022-04-26T17:15:01.173111",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/max/Developer/future-studio-lab/dalle-playground/backend/app.py",
+    "codePath": "app.py",
+    "git": {
+        "remote": null,
+        "commit": "210764f7028bc4c1a272c6ef19579045b3f119d2"
+    },
+    "email": "max.mcgee@valtech.com",
+    "root": "/Users/max/Developer/future-studio-lab/dalle-playground/backend",
+    "host": "Maxs-MacBook-Pro.local",
+    "username": "max",
+    "executable": "/Users/max/opt/anaconda3/bin/python3"
+}

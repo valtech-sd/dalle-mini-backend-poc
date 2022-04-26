@@ -1,0 +1,153 @@
+2022-04-26 10:12:05,353 INFO    MainThread:6402 [internal.py:wandb_internal():90] W&B internal server running at pid: 6402, started at: 2022-04-26 10:12:05.353224
+2022-04-26 10:12:05,355 INFO    WriterThread:6402 [datastore.py:open_for_write():75] open: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/run-1l6mt4nz.wandb
+2022-04-26 10:12:05,357 DEBUG   SenderThread:6402 [sender.py:send():232] send: header
+2022-04-26 10:12:05,357 DEBUG   SenderThread:6402 [sender.py:send():232] send: run
+2022-04-26 10:12:05,682 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: check_version
+2022-04-26 10:12:05,691 INFO    SenderThread:6402 [dir_watcher.py:__init__():166] watching files in: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files
+2022-04-26 10:12:05,692 INFO    SenderThread:6402 [sender.py:_start_run_threads():811] run started: 1l6mt4nz with start time 1650993122
+2022-04-26 10:12:05,692 DEBUG   SenderThread:6402 [sender.py:send():232] send: summary
+2022-04-26 10:12:05,692 INFO    SenderThread:6402 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 10:12:05,692 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: check_version
+2022-04-26 10:12:06,076 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: run_start
+2022-04-26 10:12:06,078 DEBUG   HandlerThread:6402 [meta.py:__init__():35] meta init
+2022-04-26 10:12:06,078 DEBUG   HandlerThread:6402 [meta.py:__init__():49] meta init done
+2022-04-26 10:12:06,078 DEBUG   HandlerThread:6402 [meta.py:probe():209] probe
+2022-04-26 10:12:06,084 DEBUG   HandlerThread:6402 [meta.py:_setup_git():199] setup git
+2022-04-26 10:12:06,119 DEBUG   HandlerThread:6402 [meta.py:_setup_git():206] setup git done
+2022-04-26 10:12:06,120 DEBUG   HandlerThread:6402 [meta.py:_save_pip():53] save pip
+2022-04-26 10:12:06,122 DEBUG   HandlerThread:6402 [meta.py:_save_pip():67] save pip done
+2022-04-26 10:12:06,123 DEBUG   HandlerThread:6402 [meta.py:_save_conda():74] save conda
+2022-04-26 10:12:06,700 INFO    Thread-7  :6402 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/wandb-summary.json
+2022-04-26 10:12:06,701 INFO    Thread-7  :6402 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/requirements.txt
+2022-04-26 10:12:06,702 INFO    Thread-7  :6402 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/conda-environment.yaml
+2022-04-26 10:12:10,711 INFO    Thread-7  :6402 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/conda-environment.yaml
+2022-04-26 10:12:10,713 DEBUG   HandlerThread:6402 [meta.py:_save_conda():84] save conda done
+2022-04-26 10:12:10,713 DEBUG   HandlerThread:6402 [meta.py:probe():247] probe done
+2022-04-26 10:12:10,722 DEBUG   SenderThread:6402 [sender.py:send():232] send: files
+2022-04-26 10:12:10,722 INFO    SenderThread:6402 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-04-26 10:12:10,737 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 10:12:10,738 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 10:12:11,711 INFO    Thread-7  :6402 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/output.log
+2022-04-26 10:12:11,712 INFO    Thread-7  :6402 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/wandb-metadata.json
+2022-04-26 10:12:12,628 DEBUG   SenderThread:6402 [sender.py:send():232] send: telemetry
+2022-04-26 10:12:12,628 DEBUG   SenderThread:6402 [sender.py:send():232] send: telemetry
+2022-04-26 10:12:13,151 INFO    Thread-11 :6402 [upload_job.py:push():137] Uploaded file /var/folders/22/mh3tzl8n7sdd9stq12996n0m0000gn/T/tmpbphxpcb0wandb/23uy8bd4-wandb-metadata.json
+2022-04-26 10:12:13,273 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:13,273 DEBUG   SenderThread:6402 [sender.py:send():232] send: exit
+2022-04-26 10:12:13,274 INFO    SenderThread:6402 [sender.py:send_exit():368] handling exit code: 1
+2022-04-26 10:12:13,274 INFO    SenderThread:6402 [sender.py:send_exit():370] handling runtime: 7
+2022-04-26 10:12:13,275 INFO    SenderThread:6402 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 10:12:13,275 INFO    SenderThread:6402 [sender.py:send_exit():376] send defer
+2022-04-26 10:12:13,275 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:13,275 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 10:12:13,276 INFO    HandlerThread:6402 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-26 10:12:13,276 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: defer
+2022-04-26 10:12:13,276 INFO    SenderThread:6402 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-04-26 10:12:13,276 INFO    SenderThread:6402 [sender.py:transition_state():389] send defer: 1
+2022-04-26 10:12:13,276 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 10:12:13,277 INFO    HandlerThread:6402 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-26 10:12:13,347 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: defer
+2022-04-26 10:12:13,347 INFO    SenderThread:6402 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-04-26 10:12:13,347 INFO    SenderThread:6402 [sender.py:transition_state():389] send defer: 2
+2022-04-26 10:12:13,347 DEBUG   SenderThread:6402 [sender.py:send():232] send: stats
+2022-04-26 10:12:13,348 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 10:12:13,348 INFO    HandlerThread:6402 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-26 10:12:13,348 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: defer
+2022-04-26 10:12:13,348 INFO    SenderThread:6402 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-04-26 10:12:13,348 INFO    SenderThread:6402 [sender.py:transition_state():389] send defer: 3
+2022-04-26 10:12:13,348 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 10:12:13,348 INFO    HandlerThread:6402 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-26 10:12:13,348 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: defer
+2022-04-26 10:12:13,349 INFO    SenderThread:6402 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-04-26 10:12:13,349 INFO    SenderThread:6402 [sender.py:transition_state():389] send defer: 4
+2022-04-26 10:12:13,349 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 10:12:13,349 INFO    HandlerThread:6402 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-26 10:12:13,349 DEBUG   SenderThread:6402 [sender.py:send():232] send: summary
+2022-04-26 10:12:13,350 INFO    SenderThread:6402 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 10:12:13,350 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: defer
+2022-04-26 10:12:13,350 INFO    SenderThread:6402 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-04-26 10:12:13,350 INFO    SenderThread:6402 [sender.py:transition_state():389] send defer: 5
+2022-04-26 10:12:13,350 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 10:12:13,351 INFO    HandlerThread:6402 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-26 10:12:13,351 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: defer
+2022-04-26 10:12:13,351 INFO    SenderThread:6402 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-04-26 10:12:13,381 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:13,722 INFO    Thread-7  :6402 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/output.log
+2022-04-26 10:12:13,722 INFO    Thread-7  :6402 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/wandb-summary.json
+2022-04-26 10:12:15,578 INFO    SenderThread:6402 [sender.py:transition_state():389] send defer: 6
+2022-04-26 10:12:15,578 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:15,580 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 10:12:15,580 INFO    HandlerThread:6402 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-26 10:12:15,581 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: defer
+2022-04-26 10:12:15,581 INFO    SenderThread:6402 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-04-26 10:12:15,581 INFO    SenderThread:6402 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-04-26 10:12:15,689 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:15,725 INFO    SenderThread:6402 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/config.yaml
+2022-04-26 10:12:15,726 INFO    SenderThread:6402 [dir_watcher.py:finish():309] scan: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files
+2022-04-26 10:12:15,727 INFO    SenderThread:6402 [dir_watcher.py:finish():323] scan save: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/requirements.txt requirements.txt
+2022-04-26 10:12:15,727 INFO    SenderThread:6402 [dir_watcher.py:finish():323] scan save: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/output.log output.log
+2022-04-26 10:12:15,730 INFO    SenderThread:6402 [dir_watcher.py:finish():323] scan save: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/config.yaml config.yaml
+2022-04-26 10:12:15,733 INFO    SenderThread:6402 [dir_watcher.py:finish():323] scan save: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/wandb-summary.json wandb-summary.json
+2022-04-26 10:12:15,737 INFO    SenderThread:6402 [dir_watcher.py:finish():323] scan save: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/conda-environment.yaml conda-environment.yaml
+2022-04-26 10:12:15,741 INFO    SenderThread:6402 [dir_watcher.py:finish():323] scan save: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/wandb-metadata.json wandb-metadata.json
+2022-04-26 10:12:15,741 INFO    SenderThread:6402 [sender.py:transition_state():389] send defer: 7
+2022-04-26 10:12:15,741 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:15,743 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 10:12:15,743 INFO    HandlerThread:6402 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-26 10:12:15,745 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: defer
+2022-04-26 10:12:15,745 INFO    SenderThread:6402 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-04-26 10:12:15,747 INFO    SenderThread:6402 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-26 10:12:15,845 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:15,845 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:15,947 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:15,948 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:16,050 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:16,050 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:16,154 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:16,155 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:16,260 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:16,261 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:16,366 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:16,367 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:16,385 INFO    Thread-16 :6402 [upload_job.py:push():137] Uploaded file /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/conda-environment.yaml
+2022-04-26 10:12:16,404 INFO    Thread-13 :6402 [upload_job.py:push():137] Uploaded file /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/output.log
+2022-04-26 10:12:16,416 INFO    Thread-12 :6402 [upload_job.py:push():137] Uploaded file /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/requirements.txt
+2022-04-26 10:12:16,445 INFO    Thread-15 :6402 [upload_job.py:push():137] Uploaded file /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/wandb-summary.json
+2022-04-26 10:12:16,469 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:16,469 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:16,502 INFO    Thread-14 :6402 [upload_job.py:push():137] Uploaded file /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/files/config.yaml
+2022-04-26 10:12:16,575 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:16,575 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:16,679 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:16,679 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:16,705 INFO    Thread-6  :6402 [sender.py:transition_state():389] send defer: 8
+2022-04-26 10:12:16,706 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 10:12:16,706 INFO    HandlerThread:6402 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-26 10:12:16,706 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: defer
+2022-04-26 10:12:16,706 INFO    SenderThread:6402 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-04-26 10:12:16,786 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:17,423 INFO    SenderThread:6402 [sender.py:transition_state():389] send defer: 9
+2022-04-26 10:12:17,424 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:17,424 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 10:12:17,425 INFO    HandlerThread:6402 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-26 10:12:17,425 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: defer
+2022-04-26 10:12:17,425 INFO    SenderThread:6402 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-04-26 10:12:17,425 INFO    SenderThread:6402 [sender.py:transition_state():389] send defer: 10
+2022-04-26 10:12:17,426 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 10:12:17,426 INFO    HandlerThread:6402 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-26 10:12:17,426 DEBUG   SenderThread:6402 [sender.py:send():232] send: final
+2022-04-26 10:12:17,426 DEBUG   SenderThread:6402 [sender.py:send():232] send: footer
+2022-04-26 10:12:17,426 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: defer
+2022-04-26 10:12:17,426 INFO    SenderThread:6402 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-04-26 10:12:17,527 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 10:12:17,527 DEBUG   SenderThread:6402 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 10:12:17,527 INFO    SenderThread:6402 [file_pusher.py:join():150] waiting for file pusher
+2022-04-26 10:12:18,010 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: sampled_history
+2022-04-26 10:12:18,011 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: get_summary
+2022-04-26 10:12:18,012 DEBUG   HandlerThread:6402 [handler.py:handle_request():141] handle_request: shutdown
+2022-04-26 10:12:18,012 INFO    HandlerThread:6402 [handler.py:finish():806] shutting down handler
+2022-04-26 10:12:18,427 INFO    WriterThread:6402 [datastore.py:close():279] close: /Users/max/Developer/future-studio-lab/dalle-playground/backend/wandb/run-20220426_101202-1l6mt4nz/run-1l6mt4nz.wandb
+2022-04-26 10:12:18,912 INFO    SenderThread:6402 [sender.py:finish():1106] shutting down sender
+2022-04-26 10:12:18,912 INFO    SenderThread:6402 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-26 10:12:18,913 INFO    SenderThread:6402 [file_pusher.py:join():150] waiting for file pusher
+2022-04-26 10:12:18,917 INFO    MainThread:6402 [internal.py:handle_exit():80] Internal process exited
