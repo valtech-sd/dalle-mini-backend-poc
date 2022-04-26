@@ -34,8 +34,6 @@ import wandb
 print(sys.argv)
 
 
-
-
 app = Flask(__name__)
 CORS(app)
 print('--> Starting DALL-E Server. This might take up to two minutes.')
