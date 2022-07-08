@@ -2,6 +2,9 @@ import base64
 import random
 import sys
 import os
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 from io import BytesIO
 import random
 from functools import partial
@@ -66,6 +69,7 @@ wandb.init(settings=wandb.Settings(start_method="fork"))
 # Load models & tokenizer
 model = DalleBart.from_pretrained(DALLE_MODEL, revision=DALLE_COMMIT_ID, dtype=dtype, abstract_init=True)
 vqgan = VQModel.from_pretrained(VQGAN_REPO, revision=VQGAN_COMMIT_ID)
+print(model)
 
 # convert model parameters for inference if requested
 if dtype == jnp.bfloat16:
@@ -144,7 +148,10 @@ def generate_images_api():
         img.save(buffered, format="JPEG")
         img_str = base64.b64encode(buffered.getvalue()).decode("utf-8")
         generated_images.append(img_str)
-
+    cloudinary.uploader.upload(f'data:image/png;base64,{generated_images[0]}',   
+        folder = "dalle-mini",
+        context=f'alt={text_prompt}'
+    )
     print(f'Created {num_images} images from text prompt [{text_prompt}]')
     return jsonify(generated_images)
 
@@ -161,5 +168,5 @@ with app.app_context():
 
 if __name__ == '__main__':    
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=False)
+    app.run(host="0.0.0.0", port=8080, debug=False)
 
